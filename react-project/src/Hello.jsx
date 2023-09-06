@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 
 function Hello({index,name}) {
+    const [thing,setThing] = useState([])
   return (
     <div>
       <h1>Hello, {name}!</h1>
